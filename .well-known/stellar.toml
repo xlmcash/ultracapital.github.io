@@ -5,19 +5,16 @@ NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
 [DOCUMENTATION]
 ORG_NAME ="Ultra Capital LLC"
 ORG_DBA ="Ultra Capital"
-ORG_URL ="https://ultracapital.cfd/"
-ORG_LOGO ="https://ultracapital.cfd/images/org_logo.png"
+ORG_URL ="https://ultracapital.sbs/"
+ORG_LOGO ="https://ultracapital.sbs/images/org_logo.png"
 ORG_PHYSICAL_ADDRESS="New York State Department of Financial Services"
-ORG_OFFICIAL_EMAIL="info@ultracapital.cfd"
-ORG_SUPPORT_EMAIL="admin@ultracapital.cfd"
-
-
-
+ORG_OFFICIAL_EMAIL="info@ultracapital.sbs"
+ORG_SUPPORT_EMAIL="admin@ultracapital.sbs"
 
 [[CURRENCIES]]
 code = "yUSDT"
 issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
-image = "https://ultracapital.cfd/images/yUSDT.png"
+image = "https://ultracapital.sbs/images/yUSDT.png"
 desc = "yUSDT is an interest earning USDT tethered token. Earn interest on your USDC by holding yUSDC. yUSDC are liquid tokens that you can trade, redeem or send at any time. 1 yUSDT is always redeemable for 1 USDT through Ultra Capital anchor. SDEX trading is live on yUSDT/USDT pair."
 conditions = "The interest share is distributed daily to yUSDC holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
 is_asset_anchored = true
@@ -28,7 +25,7 @@ status = "live"
 [[CURRENCIES]]
 code = "yUSDC"
 issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
-image = "https://ultracapital.cfd/images/yUSDC.png"
+image = "https://ultracapital.sbs/images/yUSDC.png"
 desc = "yUSDC is an interest earning USDC tethered token. Earn interest on your USDC by holding yUSDC. yUSDC are liquid tokens that you can trade, redeem or send at any time. 1 yUSDC is always redeemable for 1 USDC through Ultra Capital anchor. SDEX trading is live on yUSDC/USDC pair."
 conditions = "The interest share is distributed daily to yUSDC holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
 redemption_instructions = "Redeemable through any SEP-24 compliant Stellar wallet such as LOBSTR, StellarTerm or StellarX."
@@ -40,7 +37,7 @@ status = "live"
 [[CURRENCIES]]
 code = "yXLM"
 issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
-image = "https://ultracapital.cfd/images/yXLM.png"
+image = "https://ultracapital.sbs/images/yXLM.png"
 desc = "yXLM is an interest earning XLM tethered token. Earn interest on your XLM by holding yXLM. yXLM are liquid tokens that you can trade, redeem or send at any time. 1 yXLM is always redeemable for 1 XLM through Ultra Capital anchor."
 conditions = "The interest share is distributed daily to yXLM holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
 redemption_instructions = "Redeemable through any SEP-24 compliant Stellar wallet such as LOBSTR, StellarTerm or StellarX."
