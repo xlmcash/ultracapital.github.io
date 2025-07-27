@@ -1,0 +1,201 @@
+VERSION="2.2.0"
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+
+[DOCUMENTATION]
+ORG_NAME ="Ultra Capital LLC"
+ORG_DBA ="Ultra Capital"
+ORG_URL ="https://ultracapital.cfd/"
+ORG_LOGO ="https://ultracapital.cfd/images/org_logo.png"
+ORG_PHYSICAL_ADDRESS="New York State Department of Financial Services"
+ORG_OFFICIAL_EMAIL="info@ultracapital.cfd"
+ORG_SUPPORT_EMAIL="admin@ultracapital.cfd"
+
+
+
+
+[[CURRENCIES]]
+code = "yUSDT"
+issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+image = "https://ultracapital.cfd/images/yUSDT.png"
+desc = "yUSDT is an interest earning USDT tethered token. Earn interest on your USDC by holding yUSDC. yUSDC are liquid tokens that you can trade, redeem or send at any time. 1 yUSDT is always redeemable for 1 USDT through Ultra Capital anchor. SDEX trading is live on yUSDT/USDT pair."
+conditions = "The interest share is distributed daily to yUSDC holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "USDT"
+status = "live"
+
+[[CURRENCIES]]
+code = "yUSDC"
+issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+image = "https://ultracapital.cfd/images/yUSDC.png"
+desc = "yUSDC is an interest earning USDC tethered token. Earn interest on your USDC by holding yUSDC. yUSDC are liquid tokens that you can trade, redeem or send at any time. 1 yUSDC is always redeemable for 1 USDC through Ultra Capital anchor. SDEX trading is live on yUSDC/USDC pair."
+conditions = "The interest share is distributed daily to yUSDC holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
+redemption_instructions = "Redeemable through any SEP-24 compliant Stellar wallet such as LOBSTR, StellarTerm or StellarX."
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "USDC"
+status = "live"
+
+[[CURRENCIES]]
+code = "yXLM"
+issuer = "GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+image = "https://ultracapital.cfd/images/yXLM.png"
+desc = "yXLM is an interest earning XLM tethered token. Earn interest on your XLM by holding yXLM. yXLM are liquid tokens that you can trade, redeem or send at any time. 1 yXLM is always redeemable for 1 XLM through Ultra Capital anchor."
+conditions = "The interest share is distributed daily to yXLM holders. The APY rates are published at ultracapital.cfd/assets and may change depending on market conditions."
+redemption_instructions = "Redeemable through any SEP-24 compliant Stellar wallet such as LOBSTR, StellarTerm or StellarX."
+is_asset_anchored = true
+anchor_asset_type = "crypto"
+anchor_asset = "XLM"
+status = "live"
+
+[[CURRENCIES]]
+code="yETH"
+name="yEthereum"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+desc="yETH is an interest earning ETH tethered token. Earn interest on your ETH by holding yETH. yETH are liquid tokens that you can trade, redeem or send at any time. 1 yETH is always redeemable for 1 ETH through yStellar anchor. SDEX trading is live on yETH/ETH (yStellar) pair. The prices of all our tokens will double in price after the withdrawl account will be connected to lobstr on June 11th."
+conditions="The interest share is distributed daily to yETH holders. All our tokens have partnerships with ultracapital.xyz."
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="yStellar"
+image="https://i.ibb.co/sFsk5sg/f210653a-5fa8-41c2-85cd-f034a1eeef23.png"
+
+[[CURRENCIES]]
+code="yBTC"
+name="yBitcoin"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+desc="yBTC is an interest earning BTC tethered token. Earn interest on your BTC by holding yBTC. yBTC are liquid tokens that you can trade, redeem or send at any time. 1 yBTC is always redeemable for 1 BTC through yStellar anchor. SDEX trading is live on yBTC/BTC (yStellar) pair. The prices of all our tokens will double in price after the withdrawl account will be connected to lobstr on June 11th."
+conditions="The interest share is distributed daily to yBTC holders. All our tokens have partnerships with ultracapital.xyz."
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="yStellar"
+image="https://i.ibb.co/GHqhMrK/bitcoin-black-logo-icon-147156.png"
+
+[[CURRENCIES]]
+code="yXRP"
+name="yRipple"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+desc="yXRP is an interest earning XRP tethered token. Earn interest on your XRP by holding yXRP. yXRP are liquid tokens that you can trade, redeem or send at any time. 1 yXRP is always redeemable for 1 XRP through yStellar anchor. SDEX trading is live on yXRP/XRP (yStellar) pair. The prices of all our tokens will double in price after the withdrawl account will be connected to lobstr on June 11th."
+conditions="The interest share is distributed daily to yXRP holders. All our tokens have partnerships with ultracapital.xyz."
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="yStellar"
+image="https://i.ibb.co/fDGWpv6/3122-YRVEBKL-AC-UF894-1000-QL80.jpg"
+
+[[CURRENCIES]]
+code="yTESLA"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yTESLA"
+desc="yTESLA is an interest earning TESLA token. Earn daily 100 XLM on your Wallet by holding yTESLA. yTESLA are liquid tokens that you can trade, redeem or send at any time. 1 yTESLA is always redeemable on real time parity of TESLA/yTESLA prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yTESLA to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/pf6r6Pq/tesla.jpg"
+
+[[CURRENCIES]]
+code="yPAYPAL"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="Y"
+name="yPAYPAL"
+desc="yPAYPAL is an interest earning PAYPAL token. Earn daily 100 XLM on your Wallet by holding yPAYPAL. yPAYPAL are liquid tokens that you can trade, redeem or send at any time. 1 yPAYPAL is always redeemable on real time parity of PAYPAL/yPAYPAL prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yPAYPAL to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/NW6DVXs/paypal.jpg"
+
+[[CURRENCIES]]
+code="yIBM"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="Y"
+name="yIBM"
+desc="yIBM is an interest earning IBM token. Earn daily 100 XLM on your Wallet by holding yIBM. yIBM are liquid tokens that you can trade, redeem or send at any time. 1 yIBM is always redeemable on real time parity of IBM/yIBM prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yIBM to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/5nhRstP/images-2.png"
+
+[[CURRENCIES]]
+code="yOIL"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="crypto"
+anchor_asset="Y"
+name="yOIL"
+desc="yOIL is an interest earning OIL token. Earn daily 100 XLM on your Wallet by holding yOIL. yOIL are liquid tokens that you can trade, redeem or send at any time. 1 yOIL is always redeemable on real time parity of OIL/yOIL prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yOIL to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/vHtQgr7/oil.png"
+
+[[CURRENCIES]]
+code="ySPACEX"
+name="ySPACEX"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+desc="ySPACEX is the fully reusable spacecraft and second stage of the ySPACEX system. It offers an integrated payload section and is capable of carrying passengers and cargo to Earth orbit, planetary destinations, and between destinations on Earth."
+image="https://i.ibb.co/Ws5yrCb/spacex.png"
+conditions="Hold total of minimum 100 XLM worth of ySPACEX to qualify for daily yXLM Rewards."
+anchor_asset_type="Stock"
+anchor_asset="Y"
+
+[[CURRENCIES]]
+code="yGOLD"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yGOLD"
+desc="yGOLD is an interest earning GOLD token. Earn daily 100 XLM on your Wallet by holding yGOLD. yGOLD are liquid tokens that you can trade, redeem or send at any time. 1 yGOLD is always redeemable on real time parity of GOLD/yGOLD prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yGOLD to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/7nFB7N2/gold.jpg"
+
+[[CURRENCIES]]
+code="yBLACKROCK"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yBLACKROCK"
+desc="yBLACKROCK is an interest earning BLACROCK token. Earn daily 100 XLM on your Wallet by holding yBLACKROCK. yBLACKROCK are liquid tokens that you can trade, redeem or send at any time. 1 yBLACKROCK is always redeemable on real time parity of BLACROCK/yBLACKROCK prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yBLACKROCK to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/KzQHBG2/blackrock.png"
+
+[[CURRENCIES]]
+code="yQ"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yQ"
+desc="yQ is an interest earning Q token. Earn daily 100 XLM on your Wallet by holding yQ. yQ are liquid tokens that you can trade, redeem or send at any time. 1 yQ is always redeemable on real time parity of Q/yQ prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yQ to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/3vhHzss/yq.jpg"
+
+[[CURRENCIES]]
+code="yMICROSOFT"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yMICROSOFT"
+desc="yMICROSOFT is an interest earning MICROSOFT token. Earn daily 100 XLM on your Wallet by holding yMICROSOFT. yMICROSOFT are liquid tokens that you can trade, redeem or send at any time. 1 yMICROSOFT is always redeemable on real time parity of MICROSOFT/yMICROSOFT prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yMICROSOFT to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/PcvH4pZ/microsoft.jpg"
+
+[[CURRENCIES]]
+code="yNVIDIA"
+issuer="GAFM36NF3LYKPNGYH2NUKFKO7EX3HUG5MCMJ3M4AXRRNMDCMTEHDZ7CR"
+status="live"
+is_asset_anchored=true
+anchor_asset_type="stock"
+anchor_asset="Y"
+name="yNVIDIA"
+desc="yNVIDIA is an interest earning NVIDIA token. Earn daily 100 XLM on your Wallet by holding yNVIDIA. yNVIDIA are liquid tokens that you can trade, redeem or send at any time. 1 yNVIDIA is always redeemable on real time parity of NVIDIA/yNVIDIA prices on markets through ystellar Live Market"
+conditions="Hold total of minimum 100 XLM worth of yNVIDIA to qualify for daily yXLM Rewards."
+image="https://i.ibb.co/nk5dYQC/nvidia-logo-icon-145020.png"
